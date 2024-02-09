@@ -13,7 +13,9 @@ class Item {
         inputItem.type = "text";
         inputItem.disabled = true
         inputItem.classList.add("item-input")
-        this.inputItem = nuevaTarea
+        // this.inputItem = nuevaTarea
+        inputItem.value = nuevaTarea;
+
         
     
 
